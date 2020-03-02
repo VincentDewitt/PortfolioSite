@@ -4,6 +4,21 @@
 div{
     border: solid 1px black;
 }
+.nav{
+    background-color: #6b6c6e;
+}
+.headline_bio{
+    background-color: #87888a;
+}
+.bio{
+    background-color: #969799;
+}
+.projects{
+    background-color: #b3b4b5;
+}
+.contact{
+    background-color: #d4d5d6;
+}
 body{
 font-family: "Open Sans",
 sans-serif;
