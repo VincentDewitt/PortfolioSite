@@ -6,19 +6,38 @@ div{
 }
 .nav{
     background-color: #6b6c6e;
+    font-family: Nav_Font;
+    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Open_Sans/OpenSans-Bold.ttf);
+    
 }
 .headline_bio{
     background-color: #87888a;
+    font-family: Headline_Font;
+    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Gentium_Basic/GentiumBasic-BoldItalic.ttf);
 }
 .bio{
     background-color: #969799;
 }
+.text_bio{
+    font-family: biotext_Font;
+    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Open_Sans/OpenSans-Regular.ttf);
+}
+.headline_bio{
+    font-family: BioHeadline_Font;
+    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Gentium_Basic/GentiumBasic-Bold.ttf);
+}
 .projects{
     background-color: #b3b4b5;
+}
+.project1_text{
+    font-family: projecttext_Font;
+    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Open_Sans/OpenSans-Regular.ttf);
+
 }
 .contact{
     background-color: #d4d5d6;
 }
+
 body{
 font-family: "Open Sans",
 sans-serif;
