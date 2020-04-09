@@ -1,47 +1,58 @@
+
 *{
     box-sizing: border-box;
+
 }
-div{
-    border: solid 1px black;
+img{
+    max-width: 50%;
+    max-height: 50%;
 }
-.nav{
-    background-color: #6b6c6e;
-    font-family: Nav_Font;
-    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Open_Sans/OpenSans-Bold.ttf);
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightcyan;
+}
+.nav button{
+    background-color: #4CAF50;
+  border: solid 2px black;
+  color:black;
+  padding:  15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  width: 125px;
+ 
+}
+.headline_bio{
     
 }
-.headline_bio{
-    background-color: #87888a;
-    font-family: Headline_Font;
-    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Gentium_Basic/GentiumBasic-BoldItalic.ttf);
-}
 .bio{
-    background-color: #969799;
+    border: solid 1px black;
+    
 }
 .text_bio{
-    font-family: biotext_Font;
-    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Open_Sans/OpenSans-Regular.ttf);
+   
 }
 .headline_bio{
-    font-family: BioHeadline_Font;
-    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Gentium_Basic/GentiumBasic-Bold.ttf);
+   
 }
 .projects{
-    background-color: #b3b4b5;
+    border: solid 1px black;
+   
 }
 .project1_text{
-    font-family: projecttext_Font;
-    src: url(/Users/Desktop/PortfolioSite/PortfolioAssets/Open_Sans/OpenSans-Regular.ttf);
+   
 
 }
 .contact{
-    background-color: #d4d5d6;
+    border: solid 1px black;
+   
 }
 
 body{
 font-family: "Open Sans",
 sans-serif;
-color: #444;
 text-align: center;
 line-height: 1.5;
 }
