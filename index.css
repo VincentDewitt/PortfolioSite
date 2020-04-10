@@ -4,8 +4,7 @@
 
 }
 .projects{
-    border: solid 1px black;
-   
+    background-color:#acbdbc ;
 }
 
 .project1_text{
@@ -20,9 +19,11 @@ img{
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: lightcyan;
+    background-color: #e1faf9;
 }
-
+.nav{
+    background-color: #e8faf4;
+}
 .nav .button{
     background-color: #4CAF50;
   border: solid 2px black;
@@ -36,16 +37,12 @@ body{
   width: 125px;
 
 }
-.headline_bio{
-    
-}
 .bio{
-    border: solid 1px black;
-    
+    background-color:#cadfde ;
 }
 
 .contact{
-    border: solid 1px black;
+
    
 }
 
