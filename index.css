@@ -4,7 +4,7 @@
 
 }
 .projects{
-    background-color:#acbdbc ;
+    background-color:#F3F3F3 ;
 }
 
 .project1_text{
@@ -14,20 +14,21 @@
     margin-left: 4px;
 }
 img{
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 35%;
+    max-height: 35%;
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: #e1faf9;
+    background-color: #ffffff;
 }
 .nav{
-    background-color: #e8faf4;
+    background-color: #4A4A00;
+
 }
 .nav .button{
-    background-color: #4CAF50;
+    background-color: #333333;
   border: solid 2px black;
-  color:blue;
+  color:whitesmoke;
   padding:  15px 35px;
   text-align: center;
   text-decoration: none;
@@ -38,11 +39,11 @@ body{
 
 }
 .bio{
-    background-color:#cadfde ;
+    background-color:#FAFAFA ;
 }
 
 .contact{
-
+background-color:#E7E7E7 ;
    
 }
 
@@ -53,19 +54,18 @@ text-align: center;
 line-height: 1.5;
 }
 
-@media only screen and (min-width: 520px){
+@media only screen and (min-width: 620px){
     div.nav{
         float: left;
         display: flex;
         position: fixed;
         top: 0;
         left: 0;
-        width:240px;
+        width: 240px;
         height: 100%;
         flex-direction:column;
         align-items: center;
         justify-content: center;
-        border: solid 1px black;
     }
     body{
         margin-left:250px;
